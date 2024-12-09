@@ -1,4 +1,11 @@
 {
+  "name": "my-liff-server",
+  "version": "1.0.0",
+  "description": "LIFF Server",
+  "main": "api/send-message.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "express": "^4.21.2"
